@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-Receipts</string>
+    <string name="store_name">Store Name</string>
+    <string name="receipt_date">Receipt Date</string>
+    <string name="total_price">Total Price</string>
+    <string name="total_price_two">Total Price:</string>
+    <string name="show_receipt_button">Show Receipts</string>
+    <string name="check_budget_button">Check Budget</string>
+    <string name="load_receipt_button">Load Receipts</string>
+    <string name="add_new_receipts_button">Add a receipt</string>
+    <string name="clicked_toast">Clicked!</string>
+    <string name="items">Items</string>
+    <string name="price">Price</string>
+    <string name="show_subtitle">Show Number of Receipts</string>
+    <string name="hide_subtitle">Hide Number of Receipts</string>
+    <string name="subtitle_format">%1$d receipts</string>
+    <string name="Delete">Delete Receipt</string>
+    <string name="desc">Description</string>
+</resources>

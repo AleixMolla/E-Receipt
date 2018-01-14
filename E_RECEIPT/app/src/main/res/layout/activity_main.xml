@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|right"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/show_receipts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:drawableTop="@drawable/ic_show_receipt_50dp"
+                android:onClick="onClickShowReceiptsButton"
+                android:text="@string/show_receipt_button"/>
+
+            <Button
+                android:id="@+id/check_budget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="44dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:drawableTop="@drawable/ic_bar_chart_50dp"
+                android:onClick="onClickCheckBudgetButton"
+                android:text="@string/check_budget_button"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout   android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/load_receipts"
+                android:drawableTop="@drawable/ic_cloud_download_black_50dp"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:onClick="onClickLoadReceiptsButton"
+                android:text="@string/load_receipt_button"/>
+
+            <Button
+                android:id="@+id/add_receipts"
+                android:drawableTop="@drawable/ic_note_add_black_50dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="44dp"
+                android:onClick="onClickAddReceiptsButton"
+                android:text="@string/add_new_receipts_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
